@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "LagfF057t2VEK64k0xek/Hu8OQs=",
+			"path": "github.com/codegangsta/negroni",
+			"revision": "6edff56736fa7bd546812f149e8cdaae61e5a38f",
+			"revisionTime": "2016-08-03T04:13:42Z"
+		},
+		{
+			"checksumSHA1": "iIUYZyoanCQQTUaWsu8b+iOSPt4=",
+			"path": "github.com/gorilla/context",
+			"revision": "aed02d124ae4a0e94fea4541c8effd05bf0c8296",
+			"revisionTime": "2016-05-25T20:33:19Z"
+		},
+		{
+			"checksumSHA1": "TfZ8ulM+No3vdOTjK6qF1y9yVlI=",
+			"path": "github.com/gorilla/mux",
+			"revision": "780415097119f6f61c55475fe59b66f3c3e9ea53",
+			"revisionTime": "2016-08-01T17:00:46Z"
+		},
+		{
+			"checksumSHA1": "8C9Sl4qiZ1qRkFG9uxtXPadRuqU=",
+			"path": "github.com/phyber/negroni-gzip/gzip",
+			"revision": "13f05ed68248e012fcc773ecd829abcc0bb3abd8",
+			"revisionTime": "2016-06-24T09:12:58Z"
+		},
+		{
+			"checksumSHA1": "vtZSjv6V3GleHt2SRh2ROUEss98=",
+			"path": "github.com/urfave/negroni",
+			"revision": "6edff56736fa7bd546812f149e8cdaae61e5a38f",
+			"revisionTime": "2016-08-03T04:13:42Z"
+		}
+	],
+	"rootPath": "github.com/fahernandez/hermes"
+}
