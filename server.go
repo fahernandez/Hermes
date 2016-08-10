@@ -16,14 +16,14 @@ import (
 )
 
 func main() {
-	r := router.Init()
+	routes := router.Init()
 
-	n := negroni.New(
+	server := negroni.New(
 		negroni.NewLogger(),
 		negroni.NewRecovery(),
 		gzip.Gzip(gzip.DefaultCompression),
 	)
 
-	n.UseHandler(r)
-	n.Run(":9001")
+	server.UseHandler(routes)
+	server.Run(":9001")
 }

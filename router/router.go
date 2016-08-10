@@ -11,12 +11,19 @@ package router
 
 import (
 	"github.com/gorilla/mux"
+	"github.com/fahernandez/hermes/handler/controller"
 )
 
 // Init sets all the routes of the app
 func Init() *mux.Router {
 
-	r := mux.NewRouter().StrictSlash(true)
+	routes := mux.NewRouter().StrictSlash(true)
 
-	return r
+	// Message send controller
+	routes.Path("/send").
+		HandlerFunc(controller.Send).
+		Methods("POST").
+		Name("Send")
+
+	return routes
 }
